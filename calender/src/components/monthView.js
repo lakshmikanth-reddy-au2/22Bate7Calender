@@ -71,7 +71,7 @@ const MonthView = (props) => {
                 <thead>
                     <tr>
                         {Days.map((day, i) => (
-                            <th className="mth-top-cell">{day}</th>
+                            <th key={i} className="mth-top-cell">{day}</th>
                         ))}
                     </tr>
                 </thead>
